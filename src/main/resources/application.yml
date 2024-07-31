@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Ecom-server
+server:
+  port: 8761 # or any desired port
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
